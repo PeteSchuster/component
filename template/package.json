@@ -25,22 +25,20 @@
     "test-watch": "vunit --spec='./test/**/*.spec.js' --watch=src,test"
   },
   "dependencies": {
-    "@babel/runtime": "^7.8.4",
-    "@babel/runtime-corejs3": "^7.8.4",
     "@rei/cedar": "^11.0.0"
   },
   "peerDependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@rei/cdr-tokens": "^10.0.0",
-    "@rei/febs": "^9.0.0",
-    "@rei/vunit": "^4.1.0",
-    "@vue/test-utils": "^1.0.0",
+    "@rei/cdr-tokens": "^10.0.2",
+    "@rei/febs": "^9.4.1",
+    "@rei/vunit": "^4.3.0",
+    "@vue/test-utils": "^1.3.0",
     "babel-plugin-istanbul": "^6.0.0",
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-vue": "^7.1.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2"
